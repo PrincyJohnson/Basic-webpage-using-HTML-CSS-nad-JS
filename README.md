@@ -1,1 +1,1 @@
-# Basic-webpage-using-HTML-CSS-nad-JS
+# Basic-webpage-using-HTML-CSS-and-JS
