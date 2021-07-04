@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+                color: crimson;
+            }
+            h2 {
+                text-align: center;
+                border-radius: 10px;
+                border: 1px solid crimson;
+                padding: 15px;
+            }
+            img {
+                border-radius: 30px;
+                width: 100%;
+            }
+            p {
+                font-size: 15px;
+                line-height: 1.5;
+                font-style: normal;
+            }
+            button {
+                width: 100%;
+                background: crimson;
+                color: white;
+                border: none;
+                padding: 15px;
+                font-size: 20px;
+                border-radius: 30px;
+                box-shadow: 0 15px 20px rgba(0, 0, 0.2);
+                margin: 20px 0;
+            }
+            footer {
+                text-align: center;
+                font-size: 13px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Cosmetics!
+        </h1>
+        <h2>
+            Beauty Care!
+        </h2>
+        <img 
+        src="http://www.bibnetwiki.org/wp-content/uploads/2019/08/expert-skin-care-tips-770x340.jpg"
+        alt=""
+        width="700"
+        />
+        <p>
+            Skin care is the range of practices that support skin integrity,
+            enhance its appearance and relieve skin conditions. 
+            They can include nutrition, avoidance of excessive sun exposure and 
+            appropriate use of emollients. Practices that enhance appearance 
+            include the use of cosmetics, botulinum, exfoliation, fillers, laser 
+            resurfacing, microdermabrasion, peels, retinol therapy and ultrasonic 
+            skin treatment. Skin care is a routine daily procedure in many 
+            settings, such as skin that is either too dry or too moist, and 
+            prevention of dermatitis and prevention of skin injuries
+        </p>
+        <br />
+        <br /> 
+        <a href = "https://en.wikipedia.org/wiki/Skin_care">
+            Learn more about skin care regimen...
+        </a>
+        <br />
+        <br />
+        <button>
+            Buy skin care products!
+        </button>
+        <footer>
+            Coded by Princy!
+            <a href="https://github.com/PrincyJohnson/Python3for_beginners2021-">
+            Follow her on github!
+            </a>
+        </footer>
+
+        <script>
+            function subscribe() {
+                let name = prompt("What is your name?");
+                prompt("What is your email address?");
+
+                alert(`Thanks, ${name}! We'll be in touch!`);
+            }
+            let button = document.querySelector("button");
+            button.addEventListener("click", subscribe);
+        </script>
+    </body>
+</html>
